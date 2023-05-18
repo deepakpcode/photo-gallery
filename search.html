@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="search.css">
+</head>
+
+<body>
+    <header class="search-header">
+        
+            <div class="logo">
+                <img src="/images/pexels-logo.png" alt="">
+                <span>Pexels</span>
+            </div>
+
+            <form class="form-search">
+                <input type="text" name="search" class="search-box" id="searchTxt" autocomplete="off"
+                    placeholder="Search images">
+                <button type="submit" class="search-btn">Search</button>
+            </form>
+        
+    </header>
+
+    <!-- Light Box section -->
+
+    <div class="light-box">
+        <a href="" class="download-img" onclick="downloadImage()">Free Download</a>
+        <img src="https://source.unsplash.com/700x400?mountain" class="lightbox_img">
+        <span class="close_lightbox">X</span>
+        <button class="controle pre"><img src="/images/pre.png" alt=""></button>
+        <button class="controle next"><img src="/images/nxt.png" alt=""></button>
+    </div>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <!-- <img src="/images/img (1).png" class="gallery-img" alt="">
+        -->
+        
+    </section>
+    
+
+    <script src="app.js"></script>
+</body>
+
+</html>
